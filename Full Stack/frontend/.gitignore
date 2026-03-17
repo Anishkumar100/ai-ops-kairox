@@ -1,0 +1,79 @@
+# =========================
+# Node / Package Managers
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Lock files (keep ONE if you want reproducible builds)
+package-lock.json
+
+pnpm-lock.yaml
+
+# =========================
+# Expo
+# =========================
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Expo build output
+*.apk
+*.aab
+*.ipa
+
+# =========================
+# React Native
+# =========================
+android/
+ios/
+
+# If you are using Expo managed workflow, keep these ignored.
+# If you eject later, remove them from gitignore.
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Metro / Cache
+# =========================
+.metro-cache/
+.cache/
+
+# =========================
+# Coverage / Testing
+# =========================
+coverage/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.temp
