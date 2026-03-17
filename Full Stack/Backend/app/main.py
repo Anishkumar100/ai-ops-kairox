@@ -75,6 +75,7 @@ app.add_middleware(
     # ],
     allow_origins=["http://localhost:8081",
                   "https://ai-operation-kaizen123.vercel.app",
+                  "https://ai-ops-kairox.vercel.app"
                   ],  # The URL of your frontend
     allow_credentials=True,
     allow_methods=["*"],
